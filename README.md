@@ -9,3 +9,9 @@ The distributed execution of this mathematical operation is designed as follows 
 
 ## Running Method
 `./bigmatrixmultiplication.sh or - python bigmatrixmultiplication.py`
+
+## exampleMatmulSingle.py, exampleMatmulFailure.py and exampleMatmulDistributed.py
+These are different variations of the solutions to the same problem of multiplying a very large matrix. The Single version is an implementation on a single node, whereas Distributed is an implementation on a 5 node cluster.
+
+## Details about the environment used
+A 5 node cluster, each node with 20GB RAM and 4 cores was used to run this application.
